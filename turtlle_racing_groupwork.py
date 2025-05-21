@@ -37,7 +37,7 @@ t4 = create_sprite("chuck",x4,y4)
 # Racing part
 # x2 is fastest because the lowest speed is still faster than x3's fastest speed
 time.sleep(3)
-for i in range(5):
+for i in range(30):
 	x1 += 20
 	x2 += random.randint(100,120)
 	x3 += 90
